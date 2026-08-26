@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+int main() {
+    printf("Hello World\n");
+}
+
 // int main() {
 //     int a = 10;
 //     int b  =10;
@@ -15,3 +19,4 @@
 //     printf("The calculate number  is  %d\n",  sum);
 //     return 0;
 // }
+
