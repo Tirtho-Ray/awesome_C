@@ -2,33 +2,53 @@
 
 
 // relation operators example
+// #include <stdio.h>
+
+// int main() {
+
+//     int a = 10;
+//     int b = 5;
+
+//     printf("a = %d\n", a);
+//     printf("b = %d\n\n", b);
+
+//     // Greater than
+//     printf("a > b  : %d\n", a > b);
+
+//     // Less than
+//     printf("a < b  : %d\n", a < b);
+
+//     // Greater than or equal
+//     printf("a >= b : %d\n", a >= b);
+
+//     // Less than or equal
+//     printf("a <= b : %d\n", a <= b);
+
+//     // Equal to
+//     printf("a == b : %d\n", a == b);
+
+//     // Not equal to
+//     printf("a != b : %d\n", a != b);
+
+//     return 0;
+// }
+
+
 #include <stdio.h>
 
 int main() {
 
-    int a = 10;
-    int b = 5;
+    int age = 20;
+    int marks = 75;
 
-    printf("a = %d\n", a);
-    printf("b = %d\n\n", b);
+    // Logical AND (&&)
+    printf("AND: %d\n", age >= 18 && marks >= 40);
 
-    // Greater than
-    printf("a > b  : %d\n", a > b);
+    // Logical OR (||)
+    printf("OR: %d\n", age >= 18 || marks >= 90);
 
-    // Less than
-    printf("a < b  : %d\n", a < b);
-
-    // Greater than or equal
-    printf("a >= b : %d\n", a >= b);
-
-    // Less than or equal
-    printf("a <= b : %d\n", a <= b);
-
-    // Equal to
-    printf("a == b : %d\n", a == b);
-
-    // Not equal to
-    printf("a != b : %d\n", a != b);
+    // Logical NOT (!)
+    printf("NOT: %d\n", !(age >= 18));
 
     return 0;
 }
