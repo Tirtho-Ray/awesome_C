@@ -33,7 +33,7 @@ int main() {
 // -------------------------------------------> 01 <-----------------------------------
 
 printf()   → //Prints text to the terminal.
-//  \n  -> New line character. It moves the cursor to the next line.
+ \n // -> New line character. It moves the cursor to the next line.
 
 
 // -------------------------------------------> 02 [ variables and data type]  <----------------------------------- 
