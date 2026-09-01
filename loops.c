@@ -17,5 +17,19 @@ int main () {
     for (int i=1; i<=10; i++){
         a += i;
     }
+    
+    
     printf("output is %d",a);
 }
+
+
+int main () {
+    int a = 10;
+    for (int i=1; i<=10; i++){
+        a += i;
+    }
+    
+    
+    printf("output is %d",a);
+}
+
