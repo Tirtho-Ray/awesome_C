@@ -66,19 +66,33 @@
 //  problem solving in c programming language loops 
 
 // 1: find the Factorial 
- #include <stdio.h>
+//  #include <stdio.h>
+// int main() {
+//     int n;
+//     int factional = 1;
+
+//     printf("Enter a number: ");
+//     scanf("%d",&n);
+
+//     for (int i = 1; i<=n; i++){
+//         factional = factional * i;
+//     }
+//     printf("Factorial of %d is: %d\n", n, factional);
+
+// }
+// //
+
+
+
+// Nested Loops & Pattern Mastery
+
+// Outer loop → Row
+//     Inner loop → Column
+
+#include <stdio.h>
 int main() {
-    int n;
-    int factional = 1;
 
-    printf("Enter a number: ");
-    scanf("%d",&n);
-
-    for (int i = 1; i<=n; i++){
-        factional = factional * i;
+     for ( int row = 1; row <= 5; row++) {
+        printf("\n *");
     }
-    printf("Factorial of %d is: %d\n", n, factional);
-
 }
-//
-
