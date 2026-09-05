@@ -13,22 +13,41 @@
 
 #include <stdio.h>
 
-void sayHello() {
-    printf("Hello, World!\n");
-}
+// function definition
+// void sayHello() {
+//     printf("Hello, World!\n");
+// }
 
-int main() {
-    sayHello(); 
-    return 0;
-}
+// int main() {
+//     sayHello();  // use the function
+//     return 0;
+// }
 
 // #include <stdio.h>
-// int add (int a, int b) {
-//     return a + b;
+// int add (int a, int b) {  // here a and b are parameters
+//     return a + b; // return type is int
 // }
 // int main() {
 
-//     int result = add(5, 10);
+//     int result = add(5, 10); // here 5 and 10 are arguments
 //     printf("The sum is: %d\n", result);
 //     return 0;
 // }
+
+
+// loop with fuction
+
+#include <stdio.h>
+void printNumbers(int n) {
+    for ( int i = 1; i <= n; i++) {
+        printf("%d\n", i);
+    }
+}
+
+int main() {
+    int n;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    printNumbers(n); // calling the function
+    return 0;
+}
